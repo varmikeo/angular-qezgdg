@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class CartService {
-  items: [];
+  items: any[] = [];
 
   addToCart(product) {
     this.items.push(product);
